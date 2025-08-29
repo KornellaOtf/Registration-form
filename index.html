@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <h1>User Registration</h1>
+
+  <form action="#" method="post">
+    
+    <p>
+      <label for="fullname">Full Name:</label><br>
+      <input type="text" id="fullname" name="fullname" required>
+    </p>
+
+    <p>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required>
+    </p>
+
+    <p>
+      <label for="phone">Phone:</label><br>
+      <input type="tel" id="phone" name="phone">
+    </p>
+
+    <p>
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob">
+    </p>
+
+    <fieldset>
+      <legend>Gender</legend>
+      <input type="radio" id="gender-male" name="gender" value="male">
+      <label for="gender-male">Male</label>
+      
+      <input type="radio" id="gender-female" name="gender" value="female">
+      <label for="gender-female">Female</label>
+      
+      <input type="radio" id="gender-other" name="gender" value="other">
+      <label for="gender-other">Other</label>
+    </fieldset>
+
+    <p>
+      <label for="country">Country:</label><br>
+      <select id="country" name="country">
+        <option value="">--Select--</option>
+        <option>Kenya</option>
+        <option>Uganda</option>
+        <option>Tanzania</option>
+        <option>Ethiopia</option>
+        <option>Other</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username" required>
+    </p>
+
+    <p>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" required>
+    </p>
+
+    <p>
+      <label for="confirm">Confirm Password:</label><br>
+      <input type="password" id="confirm" name="confirm" required>
+    </p>
+
+    <p>
+      <label for="bio">Short Bio:</label><br>
+      <textarea id="bio" name="bio" rows="3"></textarea>
+    </p>
+
+    <fieldset>
+      <input type="checkbox" id="terms" name="terms" required>
+      <label for="terms">I agree to the Terms & Conditions</label>
+    </fieldset>
+
+    <p>
+      <button type="submit">Register</button>
+      <button type="reset">Clear</button>
+    </p>
+  </form>
+
+</body>
+</html>
