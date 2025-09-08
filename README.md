@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 HTML Forms Implementation Assignment
 Project Description
 This repository contains a semantic HTML implementation of a registration form for the HTML Forms Implementation Assignment. The form is designed to collect user information in a structured, accessible, and semantically correct manner, adhering to HTML5 standards and best practices. The focus is on functionality and semantic structure without CSS styling, as per the assignment requirements.
@@ -56,3 +57,7 @@ For more information on creating effective READMEs, refer to:
 GitHub's Guide to READMEs
 Make a README Template
 README Best Practices
+=======
+# Registration-form
+ Description: Registration form for IYF Programming Class
+>>>>>>> 4d2f33a3a183cb8fdc3ab113a90b462675791c2e
